@@ -195,7 +195,7 @@ extension RssFeedsViewModel {
                         self.showSuccesToast(with: "RSS feed added successfully")
                     }
                 case .failure:
-                    self.showErrorToast(with: "No feed with that URL")
+                    self.showErrorToast(with: "No RSS feed with that URL")
                 }
             } receiveValue: { [weak self] feed in
                 if getRssFeedItems {
