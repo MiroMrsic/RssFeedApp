@@ -18,12 +18,19 @@ class AppEnvironment: ObservableObject {
     
     @Published var useDarkMode: Bool {
         didSet {
-            UserDefaults.standard.set(useSafari, forKey: "useDarkMode")
+            UserDefaults.standard.set(useDarkMode, forKey: "useDarkMode")
         }
     }
     
     private init() {
+        if UserDefaults.standard.value(forKey: "hasLaunchedBefore") == nil {
+            // App is launching for the first time
+            UserDefaults.standard.set(true, forKey: "useDarkMode")
+            UserDefaults.standard.set(true, forKey: "hasLaunchedBefore")
+        }
+        
         self.useSafari = UserDefaults.standard.bool(forKey: "useSafari")
         self.useDarkMode = UserDefaults.standard.bool(forKey: "useDarkMode")
     }
 }
+

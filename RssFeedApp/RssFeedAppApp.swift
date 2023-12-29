@@ -14,7 +14,6 @@ struct RssFeedAppApp: App {
             MainView()
                 .onAppear {
                     DBM.setup()
-                    AppEnvironment.shared.useDarkMode = true
                 }
         }
     }

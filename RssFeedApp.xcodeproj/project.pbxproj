@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2310AE152B3E04EE00F26A9A /* RssFeedItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2310AE142B3E04EE00F26A9A /* RssFeedItemsView.swift */; };
-		2327538E2B3B58AA0012CC20 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2327538D2B3B58A90012CC20 /* Extensions.swift */; };
+		2327538E2B3B58AA0012CC20 /* Extensions+RssFeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2327538D2B3B58A90012CC20 /* Extensions+RssFeedItem.swift */; };
 		232753902B3B593D0012CC20 /* AddFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2327538F2B3B593D0012CC20 /* AddFeedView.swift */; };
 		232753922B3B5A3F0012CC20 /* RssFeedCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232753912B3B5A3F0012CC20 /* RssFeedCellView.swift */; };
 		232753942B3B5BF80012CC20 /* RssFeedsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232753932B3B5BF80012CC20 /* RssFeedsViewModel.swift */; };
@@ -43,7 +43,7 @@
 
 /* Begin PBXFileReference section */
 		2310AE142B3E04EE00F26A9A /* RssFeedItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RssFeedItemsView.swift; sourceTree = "<group>"; };
-		2327538D2B3B58A90012CC20 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		2327538D2B3B58A90012CC20 /* Extensions+RssFeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+RssFeedItem.swift"; sourceTree = "<group>"; };
 		2327538F2B3B593D0012CC20 /* AddFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFeedView.swift; sourceTree = "<group>"; };
 		232753912B3B5A3F0012CC20 /* RssFeedCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RssFeedCellView.swift; sourceTree = "<group>"; };
 		232753932B3B5BF80012CC20 /* RssFeedsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RssFeedsViewModel.swift; sourceTree = "<group>"; };
@@ -182,8 +182,8 @@
 		237BA6902B3B57F90060C848 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				2327538D2B3B58A90012CC20 /* Extensions.swift */,
 				239582852B3F5A2600FBABBC /* Extensions+String.swift */,
+				2327538D2B3B58A90012CC20 /* Extensions+RssFeedItem.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -318,7 +318,7 @@
 				239582862B3F5A2600FBABBC /* Extensions+String.swift in Sources */,
 				2353F6F42B3B4F88006B613A /* RssFeedAppApp.swift in Sources */,
 				237BA68D2B3B55320060C848 /* RssFeedApiService.swift in Sources */,
-				2327538E2B3B58AA0012CC20 /* Extensions.swift in Sources */,
+				2327538E2B3B58AA0012CC20 /* Extensions+RssFeedItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

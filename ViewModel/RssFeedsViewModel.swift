@@ -189,7 +189,7 @@ extension RssFeedsViewModel {
                 switch completion {
                 case .finished:
                     callback()
-                    if !getRssFeedItems {
+                    if getRssFeedItems {
                         self.toastManager.isShowingLoadingToast = false
                     } else {
                         self.showSuccesToast(with: "RSS feed added successfully")

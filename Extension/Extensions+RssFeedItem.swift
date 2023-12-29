@@ -1,5 +1,5 @@
 //
-//  Extensions.swift
+//  Extensions+RssFeedItem.swift
 //  RssFeedApp
 //
 //  Created by Miroslav Mrsic on 26.12.2023..
